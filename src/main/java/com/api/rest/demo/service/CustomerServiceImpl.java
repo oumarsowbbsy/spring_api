@@ -2,9 +2,11 @@ package com.api.rest.demo.service;
 
 import com.api.rest.demo.domain.Customer;
 import com.api.rest.demo.repositories.CustomerRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class CustomerServiceImpl implements CustomerService {
 
 
